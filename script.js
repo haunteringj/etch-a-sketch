@@ -32,6 +32,7 @@ function createGrid(input) {
 
     // Add event listens to each cell
     const cells = document.querySelectorAll('.cell');
+    // Rate of darkening
     cells.forEach(element => {
         // Add on mouseover event listers for each buton
         element.addEventListener('mouseover', () => {
