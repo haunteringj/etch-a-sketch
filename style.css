@@ -1,0 +1,37 @@
+/* Css styling for the general page */
+
+body {
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Css styling for the grid container */
+
+.grid-container {
+    display: flex;
+    height: auto;
+    width: 50%;
+}
+
+.grid-container .col {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.grid-container .col .cell {
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 3px;
+    flex: 1;
+}
+
+.cell:hover {
+    background-color: #ccc;
+}
+
+/* .test-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
