@@ -2,6 +2,8 @@
 
 body {
     margin: auto;
+    width: 100%;
+    height: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -9,7 +11,7 @@ body {
 
 .grid-container {
     display: flex;
-    height: 100vh; /* This will make it span the full height of the viewport */
+    height: 96vh; /* This will make it span the full height of the viewport */
 }
 
 .grid-container .col {
