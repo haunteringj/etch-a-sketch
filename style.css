@@ -26,8 +26,9 @@ body {
     flex: 1;
 }
 
-.cell:hover {
-    background-color: #ccc;
+button {
+    position: relative;
+    left: 50%;
 }
 
 /* .test-col {
