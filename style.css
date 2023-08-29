@@ -9,8 +9,7 @@ body {
 
 .grid-container {
     display: flex;
-    justify-content: space-between;
-    height: 100vh;
+    height: 100vh; /* This will make it span the full height of the viewport */
 }
 
 .grid-container .col {
