@@ -35,11 +35,16 @@ function createGrid(input) {
     cells.forEach(element => {
         // Add on mouseover event listers for each buton
         element.addEventListener('mouseover', () => {
-            element.style.background =  '#ccc';
+            element.style.background =  random_rgba();
         });
     });
 }
 
+// Function has been taken from the following source: https://stackoverflow.com/questions/23095637/how-do-you-get-random-rgb-in-javascript
+function random_rgba() {
+    let o = Math.round, r = Math.random, s = 255;
+    return 'rgba(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ',' + r().toFixed(1) + ')';
+}
 
 // Add event listeners to buttons
 const sizeBtn = document.querySelector('.size');
